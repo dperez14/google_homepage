@@ -32,3 +32,25 @@ li a {
   color: gray;
 }
 
+.main{
+  text-align: center;
+  
+}
+
+#logo {
+ height: 8em;
+ width: auto;
+ margin-top: 8em;
+}
+
+input {
+  border-radius: 3em;
+}
+
+#searchbar {
+  height: 4em;
+  width: 55em;
+  border-radius: 2em;
+  margin-top: 2em;
+  
+}
