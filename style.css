@@ -1,0 +1,34 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+display: relative;
+padding: .8em;
+
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+
+li{
+  list-style: none;
+
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
