@@ -14,7 +14,7 @@ nav {
   font-size: 1.2rem;
 }
 
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -22,12 +22,12 @@ ul {
 }
 
 
-li{
+nav li{
   list-style: none;
 
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: gray;
 }
@@ -38,19 +38,32 @@ li a {
 }
 
 #logo {
- height: 8em;
+ height: 7.5em;
  width: auto;
  margin-top: 8em;
-}
-
-input {
-  border-radius: 3em;
 }
 
 #searchbar {
   height: 4em;
   width: 55em;
   border-radius: 2em;
+  margin-top: 1.8em;
+  border: 1px solid rgb(215, 219, 216);
+}
+
+input:hover {
+  color: white;
+  box-shadow: 1px 1px 2px black, 0 0 20px rgb(207, 208, 212), 0 0 5px darkblue;
+}
+
+.button {
+  text-align: center;
   margin-top: 2em;
+  
+}
+
+button {
+  height: 3em;
+  width: auto;
   
 }
