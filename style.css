@@ -17,8 +17,12 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   
+}
+#photo {
+  display: flex;
+  justify-content: flex-end;
 }
 
 
@@ -66,4 +70,24 @@ button {
   height: 3em;
   width: auto;
   
+}
+
+.footer-start {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(242, 242, 242);
+   color: white;
+   text-align: center;
+}
+
+.footer-start ul {
+  list-style: none;
+  display: flex;
+  
+}
+
+.footer-start li a {
+  text-decoration: none;
 }
