@@ -10,7 +10,6 @@ body {
 
 .navbar {
   position: relative;
-  padding: .2em;
   line-height: .3em;
 }
 
@@ -20,6 +19,9 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
+  padding-right: .5em;
+
 }
 
 #store {
@@ -29,6 +31,7 @@ nav ul {
 nav li{
   list-style: none;
   margin: 7px;
+
 }
 
 nav li a {
@@ -58,6 +61,12 @@ nav li a {
 input:hover {
   color: white;
   box-shadow: 1px 1px 2px black, 0 0 20px rgb(207, 208, 212), 0 0 5px darkblue;
+  
+}
+
+input {
+  outline: none;
+  
 }
 
 .button {
@@ -101,7 +110,8 @@ button:hover {
 .footer ul {
   list-style: none;
   display: flex;
- 
+  padding-right: 1.2em;
+
 }
 
 footer li {
@@ -126,10 +136,7 @@ footer li:hover {
 }
 
 
-#squares, #photo {
-  margin-top: 0;
 
-}
 
 
 
